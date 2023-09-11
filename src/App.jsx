@@ -12,6 +12,9 @@ function App() {
 
   return (
     <>
+    <div style={{
+      backgroundColor:'white'
+    }}  ></div>
         <Therm title={"Temperature"} values={para} unit={"℃"} />
     </>
   )
